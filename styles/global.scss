@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional styles */
+@import "/styles/extra/utility-patterns.scss";
+@import "/styles/extra/range-slider.scss";
+@import "/styles/extra/toggle-switch.scss";
+@import "/styles/extra/theme.scss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=fallback");
+
+/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
+@responsive {
+  .rtl {
+    direction: rtl;
+  }
+}
+
+/* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
+[x-cloak] {
+  display: none;
+}
+
+/* AOS styles */
+$aos-distance: 10px;
+@import "node_modules/aos/src/sass/aos.scss";
+
+html {
+  min-width: 360px;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #eb367f;
+  color: #fefefe;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
