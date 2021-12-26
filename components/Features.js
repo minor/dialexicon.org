@@ -31,11 +31,24 @@ function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-16">
-            <h1 className="mb-4 h2">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
+            <h1 className="mb-4 h2">What is Dialexicon?</h1>
+            <p className="mb-8 text-xl text-gray-600">
+              Dialexicon is a platform for high school students to learn,
+              discuss, and contribute to philosophical thought and writing. At
+              the heart of the platform is our philosophy journal, Dialexicon,
+              which publishes exceptional philosophical essays written by high
+              school students.
+            </p>
+            <blockquote className="relative p-4 font-serif text-xl italic text-gray-600 bg-gray-100 border-l-4 quote">
+              "The unexamined life is not worth living." –{" "}
+              <span className="font-sans not-italic">Socrates</span>
+            </blockquote>
+            <br />
+            <p className="mt-8 text-xl text-gray-600">
+              For youth, the above quote rings true more than ever. Dialexicon
+              provides an unparalleled opportunity to explore life's biggest
+              questions, from the existence of a deity to the meaning of life or
+              the ethics of mandatory lockdowns.
             </p>
           </div>
 
@@ -47,7 +60,7 @@ function Features() {
               data-aos="fade-right"
             >
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
-                <h3 className="mb-3 h3">Powerful suite of tools</h3>
+                <h3 className="mb-3 h3">What We Offer</h3>
                 <p className="text-xl text-gray-600">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore pariatur. Excepteur sint occaecat cupidatat non
@@ -70,7 +83,7 @@ function Features() {
                 >
                   <div>
                     <div className="mb-1 font-bold leading-snug tracking-tight">
-                      Building the Simple ecosystem
+                      Philosophical Education
                     </div>
                     <div className="text-gray-600">
                       Take collaboration to the next level with security and
@@ -101,7 +114,7 @@ function Features() {
                 >
                   <div>
                     <div className="mb-1 font-bold leading-snug tracking-tight">
-                      Building the Simple ecosystem
+                      Dialexicon Journal
                     </div>
                     <div className="text-gray-600">
                       Take collaboration to the next level with security and
@@ -135,7 +148,7 @@ function Features() {
                 >
                   <div>
                     <div className="mb-1 font-bold leading-snug tracking-tight">
-                      Building the Simple ecosystem
+                      An Integrated Community
                     </div>
                     <div className="text-gray-600">
                       Take collaboration to the next level with security and

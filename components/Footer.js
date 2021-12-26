@@ -61,53 +61,6 @@ function Footer() {
             </div>
           </div>
 
-          {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-2 font-medium text-gray-800">Products</h6>
-            <ul className="text-sm">
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Web Studio
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  DynamicBox Flex
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Programming Forms
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Integrations
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Command-line
-                </a>
-              </li>
-            </ul>
-          </div>
-
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="mb-2 font-medium text-gray-800">Resources</h6>

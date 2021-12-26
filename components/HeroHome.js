@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../utils/Modal";
+import Image from "next/Image";
 import { useTheme } from "next-themes";
 
 function HeroHome() {
@@ -10,7 +11,35 @@ function HeroHome() {
     <section className="relative">
       {/* Illustration behind hero content */}
       {theme === "dark" ? (
-        ""
+        <div
+          className="absolute bottom-0 transform -translate-x-1/2 pointer-events-none left-1/2"
+          aria-hidden="true"
+        >
+          <svg
+            width="1360"
+            height="578"
+            viewBox="0 0 1360 578"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient
+                x1="50%"
+                y1="0%"
+                x2="50%"
+                y2="100%"
+                id="illustration-01"
+              >
+                <stop stopColor="#FFF" offset="0%" />
+                <stop stopColor="#EAEAEA" offset="77.402%" />
+                <stop stopColor="#DFDFDF" offset="100%" />
+              </linearGradient>
+            </defs>
+            <g fill="url(#illustration-01)" fillRule="evenodd">
+              <circle cx="1232" cy="128" r="128" />
+              <circle cx="155" cy="443" r="64" />
+            </g>
+          </svg>
+        </div>
       ) : (
         <div
           className="absolute bottom-0 transform -translate-x-1/2 pointer-events-none left-1/2"
@@ -53,18 +82,32 @@ function HeroHome() {
               data-aos="zoom-y-out"
             >
               Welcome to{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
                 Dialexicon.
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="mb-8 text-xl text-gray-600"
+                className="mb-4 text-xl text-gray-600"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
                 An international platform for youth to engage in philosophy{" "}
                 <span className="font-semibold">for free</span>.
+              </p>
+              <p
+                className="mb-8 text-xl text-gray-600"
+                data-aos="zoom-y-out"
+                data-aos-delay="150"
+              >
+                <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
+                  Dialexicon
+                </span>{" "}
+                ={" "}
+                <span className="text-rose-400">
+                  dialectic (Hegel/Plato: 'philosophical discourse')
+                </span>{" "}
+                + <span className="text-indigo-500">lexicon ('language')</span>
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -91,12 +134,12 @@ function HeroHome() {
               data-aos-delay="450"
             >
               <div className="flex flex-col justify-center">
-                <img
-                  className="mx-auto"
-                  src="/images/placeholder.png"
-                  width="768"
-                  height="432"
-                  alt="Hero"
+                <Image
+                  width={768}
+                  height={432}
+                  alt="Artwork"
+                  className="mx-auto rounded"
+                  src="/images/front_artwork.jpeg"
                 />
               </div>
               <button
