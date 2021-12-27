@@ -5,6 +5,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        gray: {
+          100: "#FBFBFB",
+          200: "#EAEAEA",
+          300: "#DFDFDF",
+          400: "#999999",
+          500: "#7F7F7F",
+          600: "#666666",
+          700: "#4C4C4C",
+          800: "#333333",
+          900: "#191919",
+        },
+      },
       boxShadow: {
         xs: "0 0 0 1px rgba(0, 0, 0, 0.16)",
         sm: "0 1px 2px 0 rgba(0, 0, 0, 0.16)",
