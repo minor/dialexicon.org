@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../utils/Modal";
-import Image from "next/Image";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 
 function HeroHome() {
