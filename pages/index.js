@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import Image from "next/Image";
 
 import Header from "../components/Header";
 import HeroHome from "../components/HeroHome";
