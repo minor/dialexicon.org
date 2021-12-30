@@ -98,19 +98,22 @@ function Newsletter() {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="mb-2 text-white h3">Join our newsletter</h3>
-                <p className="mb-6 text-lg text-gray-300">Highlighting .</p>
+                <p className="mb-6 text-lg text-gray-300">
+                  Highlighting philosophical research pertinent to you. Curated
+                  and created by students, for students.
+                </p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
                   <div className="flex flex-col justify-center max-w-xs mx-auto sm:flex-row sm:max-w-md lg:mx-0">
                     <input
                       type="email"
-                      className="w-full px-4 py-3 mb-2 text-white placeholder-gray-500 bg-gray-800 border border-gray-700 rounded-sm appearance-none focus:border-gray-600 sm:mb-0 sm:mr-2"
+                      className="w-full px-6 py-3 mb-2 text-white placeholder-gray-500 bg-gray-800 border border-gray-700 rounded-sm appearance-none focus:border-gray-600 sm:mb-0 sm:mr-2"
                       placeholder="Your email…"
                       aria-label="Your email…"
                     />
                     <a
-                      className="text-white bg-blue-600 shadow btn hover:bg-blue-700"
+                      className="text-white bg-[#7A68E1] shadow btn hover:bg-[#452cd5]"
                       href="#0"
                     >
                       Subscribe
