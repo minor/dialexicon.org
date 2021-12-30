@@ -3,13 +3,12 @@ import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 
-import Header from "../components/Header";
 import HeroHome from "../components/HeroHome";
 import FeaturesHome from "../components/Features";
 import FeaturesBlocks from "../components/FeaturesBlocks";
 import Testimonials from "../components/Testimonials";
 import Newsletter from "../components/Newsletter";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -21,22 +20,12 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
-      {/*  Site header */}
-      <Header />
-
-      {/*  Page content */}
-      <main className="flex-grow">
-        {/*  Page sections */}
-        <HeroHome />
-        <FeaturesHome />
-        <FeaturesBlocks />
-        <Testimonials />
-        <Newsletter />
-      </main>
-
-      {/*  Site footer */}
-      <Footer />
-    </div>
+    <Layout>
+      <HeroHome />
+      <FeaturesHome />
+      <FeaturesBlocks />
+      <Testimonials />
+      <Newsletter />
+    </Layout>
   );
 }

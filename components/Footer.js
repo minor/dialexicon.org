@@ -70,22 +70,6 @@ function Footer() {
                   href="#"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Documentation
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Tutorials & Guides
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
                   Blog
                 </a>
               </li>
@@ -94,7 +78,7 @@ function Footer() {
                   href="#"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Support Center
+                  Tutorials
                 </a>
               </li>
               <li className="mb-2">
@@ -102,7 +86,23 @@ function Footer() {
                   href="#"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Partners
+                  YouTube
+                </a>
+              </li>
+              <li className="mb-2">
+                <a
+                  href="#"
+                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                >
+                  Past Discussions
+                </a>
+              </li>
+              <li className="mb-2">
+                <a
+                  href="#"
+                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                >
+                  Community
                 </a>
               </li>
             </ul>
@@ -110,7 +110,7 @@ function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="mb-2 font-medium text-gray-800">Company</h6>
+            <h6 className="mb-2 font-medium text-gray-800">Dialexicon</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a
@@ -133,7 +133,7 @@ function Footer() {
                   href="#"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Company values
+                  Journal
                 </a>
               </li>
               <li className="mb-2">
@@ -141,7 +141,7 @@ function Footer() {
                   href="#"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Pricing
+                  Contact
                 </a>
               </li>
               <li className="mb-2">
@@ -159,7 +159,8 @@ function Footer() {
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="mb-2 font-medium text-gray-800">Subscribe</h6>
             <p className="mb-4 text-sm text-gray-600">
-              Get the latest news and articles to your inbox every month.
+              Get the latest philosophical research pertinent to you in your
+              inbox every month.
             </p>
             <form>
               <div className="flex flex-wrap mb-4">
@@ -185,7 +186,7 @@ function Footer() {
                         aria-hidden="true"
                       ></span>
                       <svg
-                        className="flex-shrink-0 w-3 h-3 mx-3 text-blue-600 fill-current"
+                        className="flex-shrink-0 w-3 h-3 mx-3 text-indigo-400 fill-current"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
