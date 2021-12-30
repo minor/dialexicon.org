@@ -123,13 +123,13 @@ function Testimonials() {
           </div>
 
           {/* Testimonials */}
-          {/* <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
+          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
             <div className="relative flex items-start bg-white border-2 border-gray-200 rounded">
-              {/* Testimonial
+              {/* Testimonial */}
               <div className="px-12 py-8 pt-20 mx-4 text-center md:mx-0">
                 <div className="absolute top-0 -mt-8 transform -translate-x-1/2 left-1/2">
                   <svg
-                    className="absolute top-0 right-0 w-16 h-16 -mt-3 -mr-8 text-blue-500 fill-current"
+                    className="absolute top-0 right-0 w-16 h-16 -mt-3 -mr-8 text-indigo-400 fill-current"
                     viewBox="0 0 64 64"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
@@ -138,29 +138,30 @@ function Testimonials() {
                   </svg>
                   <img
                     className="relative rounded-full"
-                    src="/images/testimonial.jpg"
+                    src="/images/saurish.JPG"
                     width="96"
                     height="96"
-                    alt="Testimonial 01"
+                    alt="An image of Saurish Srivastava"
                   />
                 </div>
-                <blockquote className="mb-4 text-xl font-medium">
-                  “ I love this product and would recommend it to anyone. Could
-                  be not easier to use, and our multiple websites are wonderful.
-                  We get nice comments all the time. “
+                <blockquote className="mb-4 text-xl">
+                  "Participating in the discussions hosted by Dialexicon, as
+                  well as engaging within their journal, has given me the
+                  opportunity to reflect on social issues (starting with
+                  education) in my life."
                 </blockquote>
-                <cite className="block mb-1 text-lg not-italic font-bold">
-                  Darya Finger
+                <cite className="block mb-1 text-lg not-italic font-medium">
+                  Saurish Srivastava
                 </cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span>{" "}
+                  <span>Vice President</span>{" "}
                   <a className="text-blue-600 hover:underline" href="#0">
-                    @Dropbox
+                    @Dialexicon
                   </a>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
