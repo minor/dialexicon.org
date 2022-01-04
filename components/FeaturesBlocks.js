@@ -25,60 +25,80 @@ function FeaturesBlocks() {
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl ring ring-indigo-400">
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Lorem ipsum
+                Who can submit to Dialexicon?
               </h4>
               <p className="text-center text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                High school students from around the world are eligible to
+                submit to Dialexicon for an opportunity to have their
+                philosophical essay published in a professionally adjudicated
+                journal.
               </p>
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl ring ring-indigo-400">
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Lorem ipsum
+                When will I be notified about the results?
               </h4>
               <p className="text-center text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                We will notify those whose papers are selected for publication
+                in the journal by March.
               </p>
             </div>
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl ring ring-indigo-400">
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Lorem ipsum
+                Can I use the first person?
               </h4>
               <p className="text-center text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Of course. Philosophers often use the first person when mapping
+                out their argument. This is not to say that the essay should be
+                informal; it should be formal – this means no contractions!
               </p>
             </div>
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl ring ring-indigo-400">
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Lorem ipsum
+                Do I have to answer all of the questions in the prompt?
               </h4>
               <p className="text-center text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                No. The questions serve as pointers to help you consider the
+                philosophical implications of each topic, but you do not need to
+                answer all of them. Feel free to create your own question so
+                long as it is relevant to the prompt.
               </p>
             </div>
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl ring ring-indigo-400">
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Lorem ipsum
+                How does the submission process work?
               </h4>
               <p className="text-center text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                We use a blind review process, meaning we do not consider
+                personal information such as your name, school, or age when
+                reviewing your submission. Your essay will undergo multiple
+                rounds of review, and be evaluated by at least 4 different
+                adjudicators. The top 10 submissions will be evaluated by 3
+                esteemed university faculty to select those accepted for
+                publication and the overall winner, and feedback will be
+                provided to each author.
               </p>
             </div>
 
             {/* 6th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl ring ring-indigo-400">
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Lorem ipsum
+                Who will be adjudicating my paper?
               </h4>
               <p className="text-center text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                A panel of university philosophy faculty, graduate students, and
+                international debate coaches will be adjudicating your
+                submission to determine if it fulfills the criteria for
+                acceptance into the journal. For the criteria, refer to the
+                rubric.
               </p>
             </div>
           </div>

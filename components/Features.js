@@ -60,11 +60,9 @@ function Features() {
               data-aos="fade-right"
             >
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
-                <h3 className="mb-3 h3">What We Offer</h3>
+                <h3 className="mb-3 h3">How to Get Involved</h3>
                 <p className="text-xl text-gray-600">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa.
+                  Dialexicon has many initiatives where you can get involved.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -86,8 +84,8 @@ function Features() {
                       Philosophical Education
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      We empower our community to engage in philosophical
+                      discussion, thought, reflection, and education.
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -117,8 +115,8 @@ function Features() {
                       Dialexicon Journal
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Each year, we publish our own Dialexicon Journal. Read
+                      more about our past/current publications.
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -151,8 +149,8 @@ function Features() {
                       An Integrated Community
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Join our Discord Community to join weekly discussions,
+                      lectures, and learning.
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -194,19 +192,19 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src="/images/features-bg.png"
-                      width="500"
-                      height="462"
-                      alt="Features bg"
+                      src="/images/athens_image.jpeg"
+                      width="640"
+                      height="427"
+                      alt="The School of Athens"
                     />
-                    <img
+                    {/* <img
                       className="absolute left-0 w-full transform md:max-w-none animate-float"
                       src="/images/features-element.png"
                       width="500"
                       height="44"
                       alt="Element"
                       style={{ top: "30%" }}
-                    />
+                    /> */}
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -224,19 +222,19 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src="/images/features-bg.png"
+                      src="/images/journal.jpg"
                       width="500"
                       height="462"
-                      alt="Features bg"
+                      alt="Journal"
                     />
-                    <img
+                    {/* <img
                       className="absolute left-0 w-full transform md:max-w-none animate-float"
                       src="/images/features-element.png"
                       width="500"
                       height="44"
                       alt="Element"
                       style={{ top: "30%" }}
-                    />
+                    /> */}
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -254,19 +252,19 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src="/images/features-bg.png"
-                      width="500"
+                      src="/images/community.jpg"
+                      width="640"
                       height="462"
-                      alt="Features bg"
+                      alt="Discord Community"
                     />
-                    <img
+                    {/* <img
                       className="absolute left-0 w-full transform md:max-w-none animate-float"
                       src="/images/features-element.png"
                       width="500"
                       height="44"
                       alt="Element"
                       style={{ top: "30%" }}
-                    />
+                    /> */}
                   </div>
                 </Transition>
               </div>

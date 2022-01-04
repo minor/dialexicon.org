@@ -41,17 +41,18 @@ export default function Layout(props) {
     return () => window.removeEventListener("scroll", scrollHandler);
   }, [top]);
 
-  const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
-  // After mounting, we have access to the theme
-  useEffect(() => setMounted(true), []);
+  // const [mounted, setMounted] = useState(false);
+  // const { theme, setTheme } = useTheme();
+  // // After mounting, we have access to the theme
+  // useEffect(() => setMounted(true), []);
 
   const router = useRouter();
   const { children, ...customMeta } = props;
   const meta = {
     title: "Philosophy for Youth | Dialexicon",
     description: `Dialexicon is a youth philosophy platform consisting of a high school philosophy journal, a forum, and a series of webinars with esteemed philosophers.`,
-    image: "https://saurish.com/static/favicons/send.png",
+    // image: "https://dialexicon.org/images/send.png",
+    image: "/images/send.png",
     type: "website",
     ...customMeta,
   };
@@ -69,14 +70,6 @@ export default function Layout(props) {
         <link rel="canonical" href={`https://saurish.com${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Dialexicon" />
-        <meta
-          name="google-site-verification"
-          content="iDZx5sULjkE1tF-0L7obgyBVrr0-0QmcHYfFsbEkv7M"
-        />
-        <meta
-          name="google-site-verification"
-          content="EC9S-WNG3Yl_bjQfBsTY779nMxm1MPnGQMdlXufZwlk"
-        />
 
         <meta
           name="keywords"
@@ -104,37 +97,39 @@ export default function Layout(props) {
           <div className="px-4 mx-auto max-w-7xl sm:px-6">
             <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <a href="#">
-                  <span className="sr-only">Dialexicon Logo</span>
-                  <svg
-                    width="32"
-                    height="32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M32 16c0-8.83656-7.1634-16-16-16C7.16344 0 0 7.16344 0 16c0 8.8366 7.16344 16 16 16 8.8366 0 16-7.1634 16-16Z"
-                      fill="url(#a)"
-                    />
-                    <path
-                      d="M15.02 23.2c-1.2133 0-2.2067-.4733-2.98-1.42-.76-.96-1.14-2.3667-1.14-4.22 0-1.8667.3867-3.28 1.16-4.24.7733-.96 1.7867-1.44 3.04-1.44.7867 0 1.4333.1533 1.94.46.5067.3067.9067.6867 1.2 1.14h.1c-.04-.2133-.0867-.52-.14-.92-.0533-.4133-.08-.8333-.08-1.26V7.8h2.98V23h-2.28l-.58-1.42h-.12c-.2933.4533-.6867.84-1.18 1.16-.4933.3067-1.1333.46-1.92.46Zm1.04-2.38c.8267 0 1.4067-.24 1.74-.72.3333-.4933.5067-1.2267.52-2.2v-.32c0-1.0667-.1667-1.88-.5-2.44-.32-.56-.92-.84-1.8-.84-.6533 0-1.1667.2867-1.54.86-.3733.56-.56 1.3733-.56 2.44s.1867 1.8733.56 2.42c.3733.5333.9.8 1.58.8Z"
-                      fill="#fff"
-                    />
-                    <defs>
-                      <radialGradient
-                        id="a"
-                        cx="0"
-                        cy="0"
-                        r="1"
-                        gradientUnits="userSpaceOnUse"
-                        gradientTransform="translate(6.76864 27.5402) scale(25.5811)"
-                      >
-                        <stop offset=".145833" stop-color="#7977D3" />
-                        <stop offset=".536458" stop-color="#B179CB" />
-                        <stop offset="1" stop-color="#E684AE" />
-                      </radialGradient>
-                    </defs>
-                  </svg>
-                </a>
+                <Link href="/">
+                  <a>
+                    <span className="sr-only">Dialexicon Logo</span>
+                    <svg
+                      width="32"
+                      height="32"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M32 16c0-8.83656-7.1634-16-16-16C7.16344 0 0 7.16344 0 16c0 8.8366 7.16344 16 16 16 8.8366 0 16-7.1634 16-16Z"
+                        fill="url(#a)"
+                      />
+                      <path
+                        d="M15.02 23.2c-1.2133 0-2.2067-.4733-2.98-1.42-.76-.96-1.14-2.3667-1.14-4.22 0-1.8667.3867-3.28 1.16-4.24.7733-.96 1.7867-1.44 3.04-1.44.7867 0 1.4333.1533 1.94.46.5067.3067.9067.6867 1.2 1.14h.1c-.04-.2133-.0867-.52-.14-.92-.0533-.4133-.08-.8333-.08-1.26V7.8h2.98V23h-2.28l-.58-1.42h-.12c-.2933.4533-.6867.84-1.18 1.16-.4933.3067-1.1333.46-1.92.46Zm1.04-2.38c.8267 0 1.4067-.24 1.74-.72.3333-.4933.5067-1.2267.52-2.2v-.32c0-1.0667-.1667-1.88-.5-2.44-.32-.56-.92-.84-1.8-.84-.6533 0-1.1667.2867-1.54.86-.3733.56-.56 1.3733-.56 2.44s.1867 1.8733.56 2.42c.3733.5333.9.8 1.58.8Z"
+                        fill="#fff"
+                      />
+                      <defs>
+                        <radialGradient
+                          id="a"
+                          cx="0"
+                          cy="0"
+                          r="1"
+                          gradientUnits="userSpaceOnUse"
+                          gradientTransform="translate(6.76864 27.5402) scale(25.5811)"
+                        >
+                          <stop offset=".145833" stopColor="#7977D3" />
+                          <stop offset=".536458" stopColor="#B179CB" />
+                          <stop offset="1" stopColor="#E684AE" />
+                        </radialGradient>
+                      </defs>
+                    </svg>
+                  </a>
+                </Link>
               </div>
               <div className="-my-2 -mr-2 md:hidden">
                 <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -149,7 +144,7 @@ export default function Layout(props) {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     className="w-6 h-6"
-                    ariaHidden="true"
+                    aria-hidden="true"
                   >
                     <path d="M3 12h18M3 6h18M3 18h18" />
                   </svg>
@@ -166,19 +161,21 @@ export default function Layout(props) {
                     Journal
                   </a>
                 </Link>
-                <Link href="/discord">
-                  <a className="text-lg font-medium text-gray-500 hover:text-gray-900">
-                    Community
-                  </a>
-                </Link>
-                <Link href="/contact">
-                  <a className="text-lg font-medium text-gray-500 hover:text-gray-900">
-                    Contact
-                  </a>
-                </Link>
+                <a
+                  href="https://discord.gg/J5RzXgQRWK"
+                  className="text-lg font-medium text-gray-500 hover:text-gray-900"
+                >
+                  Community
+                </a>
+                <a
+                  href="mailto:dialexiconjournal@gmail.com"
+                  className="text-lg font-medium text-gray-500 hover:text-gray-900"
+                >
+                  Contact
+                </a>
               </Popover.Group>
               <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
-                <button
+                {/* <button
                   aria-label="Toggle Dark Mode"
                   type="button"
                   className="w-10 h-10 p-3 bg-gray-200 rounded dark:bg-gray-800"
@@ -209,7 +206,7 @@ export default function Layout(props) {
                       )}
                     </svg>
                   )}
-                </button>
+                </button> */}
                 <Link href="/discord">
                   <a className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-[#7A68E1] whitespace-nowrap hover:bg-indigo-700">
                     Discord
@@ -260,9 +257,9 @@ export default function Layout(props) {
                                 gradientUnits="userSpaceOnUse"
                                 gradientTransform="translate(6.76864 27.5402) scale(25.5811)"
                               >
-                                <stop offset=".145833" stop-color="#7977D3" />
-                                <stop offset=".536458" stop-color="#B179CB" />
-                                <stop offset="1" stop-color="#E684AE" />
+                                <stop offset=".145833" stopColor="#7977D3" />
+                                <stop offset=".536458" stopColor="#B179CB" />
+                                <stop offset="1" stopColor="#E684AE" />
                               </radialGradient>
                             </defs>
                           </svg>
@@ -307,7 +304,7 @@ export default function Layout(props) {
                 </div>
                 <div className="px-5 py-6 space-y-6">
                   <div>
-                    <div className="flex items-center justify-center mb-4">
+                    {/* <div className="flex items-center justify-center mb-4">
                       <button
                         aria-label="Toggle Dark Mode"
                         type="button"
@@ -342,7 +339,7 @@ export default function Layout(props) {
                           </svg>
                         )}
                       </button>
-                    </div>
+                    </div> */}
                     <Link href="/discord">
                       <a className="flex items-center justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-gradient-to-r from-rose-400 to-indigo-500 hover:bg-indigo-700">
                         Discord

@@ -35,9 +35,9 @@ function Footer() {
                         gradientUnits="userSpaceOnUse"
                         gradientTransform="translate(6.76864 27.5402) scale(25.5811)"
                       >
-                        <stop offset=".145833" stop-color="#7977D3" />
-                        <stop offset=".536458" stop-color="#B179CB" />
-                        <stop offset="1" stop-color="#E684AE" />
+                        <stop offset=".145833" stopColor="#7977D3" />
+                        <stop offset=".536458" stopColor="#B179CB" />
+                        <stop offset="1" stopColor="#E684AE" />
                       </radialGradient>
                     </defs>
                   </svg>
@@ -66,12 +66,11 @@ function Footer() {
             <h6 className="mb-2 font-medium text-gray-800">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Blog
-                </a>
+                <Link href="/blog">
+                  <a className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900">
+                    Blog
+                  </a>
+                </Link>
               </li>
               <li className="mb-2">
                 <a
@@ -83,7 +82,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#"
+                  href="https://www.youtube.com/channel/UC-tO4dhpa6ab8evhqVcdvKA"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   YouTube
@@ -99,7 +98,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#"
+                  href="https://discord.gg/J5RzXgQRWK"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Community
@@ -113,43 +112,40 @@ function Footer() {
             <h6 className="mb-2 font-medium text-gray-800">Dialexicon</h6>
             <ul className="text-sm">
               <li className="mb-2">
+                <Link href="/">
+                  <a className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900">
+                    Home
+                  </a>
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link href="/about">
+                  <a className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900">
+                    About us
+                  </a>
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link href="/journal">
+                  <a className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900">
+                    Journal
+                  </a>
+                </Link>
+              </li>
+              <li className="mb-2">
                 <a
-                  href="#"
+                  href="https://discord.gg/J5RzXgQRWK"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Home
+                  Discord
                 </a>
               </li>
               <li className="mb-2">
                 <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  About us
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Journal
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
+                  href="mailto:dialexiconjournal@gmail.com"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Contact
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Privacy Policy
                 </a>
               </li>
             </ul>

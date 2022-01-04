@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../utils/Modal";
+import Link from "next/link";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 
@@ -92,8 +93,7 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                An international platform for youth to engage in philosophy{" "}
-                <span className="font-semibold">for free</span>.
+                An international platform for youth to engage in philosophy.
               </p>
               <p
                 className="mb-8 text-xl text-gray-600"
@@ -115,12 +115,11 @@ function HeroHome() {
                 data-aos-delay="300"
               >
                 <div>
-                  <a
-                    className="w-full mb-4 text-white bg-blue-500 btn hover:bg-blue-600 sm:w-auto sm:mb-0"
-                    href="#0"
-                  >
-                    Learn more
-                  </a>
+                  <Link href="/about">
+                    <a className="w-full mb-4 text-white bg-blue-500 btn hover:bg-blue-600 sm:w-auto sm:mb-0">
+                      Learn more
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
