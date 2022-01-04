@@ -44,6 +44,7 @@ const board = [
         <a className="text-blue-500 underline" href="https://saurish.com">
           saurish.com
         </a>
+        .
       </p>
     ),
   },
