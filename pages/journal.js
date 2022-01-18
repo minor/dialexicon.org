@@ -18,26 +18,11 @@ export default function Journal() {
               Our Journal
             </h1>
           </div>
-
-          {/* Hero image */}
-          <div>
-            <div className="relative flex justify-center mb-8">
-              <div className="flex flex-col justify-center">
-                <Image
-                  width={768}
-                  height={432}
-                  alt="Image of the Team"
-                  className="mx-auto rounded"
-                  src="/images/placeholder.png"
-                />
-              </div>
-            </div>
-          </div>
         </div>
         <div className="max-w-3xl">
           <div className="pb-12 text-left md:pb-16">
             <h1 className="mb-4 text-2xl font-bold md:text-3xl leading-tighter">
-              As Plutarch once proclaimed, "Philosophy is the art of living."
+              Current Volume
             </h1>
             <div className="mx-auto">
               <p className="mb-4 text-xl text-gray-600">
@@ -70,7 +55,7 @@ export default function Journal() {
           </div>
           <div className="pb-12 text-left md:pb-16">
             <h1 className="mb-4 text-2xl font-bold md:text-3xl leading-tighter">
-              Thinking like a philosopher is essential in the 21st century.
+              Past Volumes
             </h1>
             <div className="mx-auto">
               <p className="mb-4 text-xl text-gray-600">

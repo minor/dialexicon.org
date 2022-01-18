@@ -8,23 +8,26 @@ import { Popover, Transition } from "@headlessui/react";
 const headers = [
   {
     name: "About",
-    description:
-      "Get a better understanding of where your traffic is coming from.",
+    description: "Get to know Dialexicon a little bit better.",
     href: "about",
   },
   {
     name: "Journal",
-    description: "Speak directly to your customers in a more meaningful way.",
+    description: "Learn more about our bi-annual journal and its past volumes.",
     href: "journal",
   },
   {
+    name: "Submit",
+    descrption: "Read prompts and submit your essays!",
+  },
+  {
     name: "Community",
-    description: "Your customers' data will be safe and secure.",
+    description: "Join our community and get involved!",
     href: "discord",
   },
   {
     name: "Contact",
-    description: "Connect with third-party tools that you're already using.",
+    description: "Connect with us for questions or sponsorships!",
     href: "contact",
   },
 ];
@@ -158,6 +161,11 @@ export default function Layout(props) {
                 <Link href="/journal">
                   <a className="text-lg font-medium text-gray-500 hover:text-gray-900">
                     Journal
+                  </a>
+                </Link>
+                <Link href="/submit">
+                  <a className="text-lg font-medium text-gray-500 hover:text-gray-900">
+                    Submit
                   </a>
                 </Link>
                 <a

@@ -43,9 +43,16 @@ function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-16">
             <h2 className="h2">Our Sponsors</h2>
-            {/* <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-              
-            </p> */}
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out">
+              If you would like to sponsor Dialexicon, please{" "}
+              <a
+                href="/contact"
+                className="text-gray-700 underline hover:text-black"
+              >
+                connect with us
+              </a>
+              .
+            </p>
           </div>
 
           {/* Items */}

@@ -97,7 +97,7 @@ export default function About() {
                   height={432}
                   alt="Image of the Team"
                   className="mx-auto rounded"
-                  src="/images/placeholder.png"
+                  src="/images/placeholder2.png"
                 />
               </div>
             </div>
