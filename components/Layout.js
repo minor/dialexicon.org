@@ -1,5 +1,4 @@
 import { useState, useEffect, Fragment } from "react";
-import { useTheme } from "next-themes";
 import Link from "next/link";
 import Head from "next/head";
 import { useRouter } from "next/router";
