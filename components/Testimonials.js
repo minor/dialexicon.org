@@ -97,25 +97,30 @@ function Testimonials() {
                   </svg>
                   <img
                     className="relative rounded-full"
-                    src="/images/saurish.JPG"
+                    src="/images/landing/lavanya.jpeg"
                     width="96"
                     height="96"
-                    alt="An image of Saurish Srivastava"
+                    alt="An image of Lavanya Girish"
                   />
                 </div>
                 <blockquote className="mb-4 text-xl">
                   "Participating in the discussions hosted by Dialexicon, as
                   well as engaging within their journal, has given me the
                   opportunity to reflect on social issues (starting with
-                  education) in my life."
+                  education) in my life. Dialexicon's community has helped me
+                  grow as an individual, but also as a member of society."
                 </blockquote>
                 <cite className="block mb-1 text-lg not-italic font-medium">
-                  Saurish Srivastava
+                  Lavanya Girish
                 </cite>
                 <div className="text-gray-600">
-                  <span>Vice President</span>{" "}
-                  <a className="text-blue-600 hover:underline" href="#0">
-                    @Dialexicon
+                  <span>Junior</span>{" "}
+                  <a
+                    href="https://www.presentationhs.org/"
+                    className="text-blue-600 hover:underline"
+                    target="_blank"
+                  >
+                    @ Presentation High School
                   </a>
                 </div>
               </div>
