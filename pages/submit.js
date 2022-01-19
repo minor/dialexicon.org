@@ -7,7 +7,7 @@ export default function Journal() {
   return (
     <Layout
       title="Submit | Dialexicon"
-      description="Learn more about Dialexicon's journal and how to submit!"
+      description="Learn how to submit to Dialexicon's journal!"
     >
       <div className="max-w-6xl px-4 mx-auto border-b sm:px-6">
         <div className="pt-32 pb-12 md:pt-40">

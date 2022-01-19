@@ -7,7 +7,7 @@ export default function Journal() {
   return (
     <Layout
       title="Journal | Dialexicon"
-      description="Learn more about Dialexicon's journal and how to submit!"
+      description="Read the Dialexicon biannual journal!"
     >
       <div className="max-w-6xl px-4 mx-auto border-b sm:px-6">
         {/* Hero content */}
