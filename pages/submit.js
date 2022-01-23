@@ -11,7 +11,7 @@ export default function Journal() {
     >
       <div className="max-w-6xl px-4 mx-auto border-b sm:px-6">
         <div className="pt-32 pb-12 md:pt-40">
-          <div className="pb-12 text-center md:pb-16">
+          <div className="pb-8 text-center">
             <h1 className="mb-8 text-4xl font-extrabold tracking-tighter md:text-5xl leading-tighter">
               Submit to Dialexicon
             </h1>

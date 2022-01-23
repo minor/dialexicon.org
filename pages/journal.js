@@ -13,7 +13,7 @@ export default function Journal() {
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40">
           {/* Section header */}
-          <div className="pb-12 text-center md:pb-16">
+          <div className="pb-8 text-center">
             <h1 className="mb-8 text-4xl font-extrabold tracking-tighter md:text-5xl leading-tighter">
               Our Journal
             </h1>
@@ -25,32 +25,49 @@ export default function Journal() {
               Current Volume
             </h1>
             <div className="mx-auto">
-              <p className="mb-4 text-xl text-gray-600">
-                In today's digital age, it is easy to mindlessly consume
-                information. But to truly contemplate issues beneath the surface
-                and to lead a well-examined life requires embodying the thought
-                processes of a philosopher: to pose big questions about the
-                world and criticize the norm.
-                <br />
-                <br />
-                Philosophical thinking can be found in the ordinary and the
-                familiar, not just the new and profound. At the same time,
-                philosophy delights in the unknown: in posing questions that
-                might not have immediate or clear answers, but are worth asking
-                for the sake of curiosity.
-                <br />
-                <br />
-                From youth, we are natural philosophers, asking large questions
-                about seemingly self-evident subjects: Why is the sky blue? Why
-                do we have to listen to our parents? Why is there something
-                rather than nothing?{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
-                  Dialexicon
-                </span>{" "}
-                is a project to revive these questions by giving youth a
-                platform to express their philosophical ideas and share them
-                with others.
-              </p>
+              <div className="text-center">
+                <div
+                  style={{
+                    position: "relative",
+                    width: "100%",
+                    height: 0,
+                    paddingTop: "125.0000%",
+                    paddingBottom: "48px",
+                    boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
+                    marginTop: "1.6em",
+                    marginBottom: "1.6em",
+                    overflow: "hidden",
+                    borderRadius: "8px",
+                    willChange: "transform",
+                  }}
+                >
+                  <iframe
+                    loading="lazy"
+                    style={{
+                      position: "absolute",
+                      width: "100%",
+                      height: "100%",
+                      top: 0,
+                      left: 0,
+                      border: "none",
+                      padding: 0,
+                      margin: 0,
+                    }}
+                    src="https://www.canva.com/design/DAEOGgg2VpY/view?embed"
+                    allowFullScreen="allowfullscreen"
+                    allow="fullscreen"
+                  ></iframe>
+                </div>
+                <a
+                  href="/journal2020.pdf"
+                  className="text-gray-700 underline hover:text-black"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Dialexicon Journal Fall 2020
+                </a>{" "}
+                <span className="text-gray-700">by Elizabeth Zhu</span>
+              </div>
             </div>
           </div>
           <div className="pb-12 text-left md:pb-16">
@@ -59,75 +76,64 @@ export default function Journal() {
             </h1>
             <div className="mx-auto">
               <p className="mb-4 text-xl text-gray-600">
-                The biggest problems facing our modern society do not derive
-                from a lack of resources but from the abuse and mismanagement of
-                tools by humankind.
-                <br />
-                <br />
-                Poverty stems from a lack of redistribution, not scarcity.
-                <br />
-                <br />
-                Climate change stems from human-caused pollution and the tragedy
-                of the commons.
-                <br />
-                <br />
-                War stems from fragmentation and political mismanagement.
-                <br />
-                <br />
-                Technological abuse threatens a new frontier where our privacy,
-                liberty, and equality are at risk.
-                <br />
-                <br />
-                To combat these problems, we need philosophy more than ever.
-                While science has fostered the creation of tools, philosophy
-                teaches us how and when to use them in just and beneficial wyas.
-                We need political philosophy to justly govern citizens and allot
-                resources, ethics to guide how we ought to treat each other, and
-                epistemology to satisfy our curiosity.
-                <br />
-                <br />
-                Thinking like a philosopher trains you to be a problem-solver, a
-                persuasive orator, and a critical thinker.{" "}
+                The 2020 Fall{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
                   Dialexicon
                 </span>{" "}
-                is the first step on that journey, beginning with youth.
-              </p>
-            </div>
-          </div>
-          <div className="pb-12 text-left md:pb-16">
-            <h1 className="mb-4 text-2xl font-bold md:text-3xl leading-tighter">
-              Why{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
-                Dialexicon
-              </span>
-              ?
-            </h1>
-            <div className="mx-auto">
-              <p className="mb-4 text-xl text-gray-600">
-                Here are some reasons why Dialexicon came into existence:
+                Journal received 85 submissions from 12 countries: Canada,
+                Greece, US, Mexico, Hungary, UK, Indonesia, Slovenia, Turkey,
+                Thailand, Bosnia and Herzegovina, and Serbia.
+                <br />
+                <br />
+                <span className="font-semibold">
+                  Announcing the Winner and Published Authors of the{" "}
+                  <a
+                    href="/journal2020.pdf"
+                    className="text-gray-700 underline hover:text-black"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Dialexicon Fall 2020 Journal
+                  </a>
+                  .
+                </span>{" "}
+                <br />
+                <br />
+                ​Congratulations to Julia Wright, who is our 2020 winner and
+                recipient of the $500 prize, with her paper titled "The Animal
+                Rights Movement in the Context of the COVID-19 Pandemic" ​
+                <br />
+                <br />
+                Published Authors - Featured in the Dialexicon Fall 2020
+                Journal:
                 <ul className="mt-4 mb-4 ml-6 list-disc">
                   <li>
-                    Noticed a lack of accessible philosophy resources for high
-                    school students
+                    Kiki Ajayi (England) - "Does Violence have a place in
+                    Politics?"
                   </li>
                   <li>
-                    To share the voices and philosophical opinions of youth with
-                    a global audience
+                    Dimitrios Kouvaras (Greece) - "COVID-19: A Lesson of Freedom
+                    and Citizenship"
                   </li>
                   <li>
-                    To provide a forum for youth to discuss philosophy with
-                    other engaged youth
+                    Sophie Nadalini (Canada) - "A Call for Nonviolent Protest"
                   </li>
                   <li>
-                    To distill complex philosophical ideas to be approachable
-                    for youth
+                    Daniel Xu (USA) - "The Rebel in Black: A Black
+                    Existentialist Approach to the George Floyd Protests"
+                  </li>
+                  <li>
+                    Emma Miléna Mészáros (Hungary) - "How Viktor Orban's Hungary
+                    is heading towards dictatorship during COVID-19"
                   </li>
                 </ul>
-                Dialexicon seeks to close a gap in high-quality philosophy
-                resources for young people, offering a platform tailored to
-                middle and high school students who are interested in
-                philosophy.
+                Honorable Mentions:
+                <ul className="mt-4 mb-4 ml-6 list-disc">
+                  <li>Charles Amsellem (England)</li>
+                  <li>Benjamin Allen (Hungary)</li>
+                  <li>Aarian Bhakoo (Canada)</li>
+                  <li>Eva Kamimura (Canada)</li>
+                </ul>
               </p>
             </div>
           </div>
