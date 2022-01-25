@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 function HeroHome() {
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
+  // const [videoModalOpen, setVideoModalOpen] = useState(false);
   // const { theme, setTheme } = useTheme();
 
   return (
@@ -140,7 +140,7 @@ function HeroHome() {
                   src="/images/front_artwork.jpeg"
                 />
               </div>
-              <button
+              {/* <button
                 className="absolute flex items-center p-4 font-medium transform -translate-y-1/2 bg-white rounded-full shadow-lg top-full group"
                 onClick={(e) => {
                   e.preventDefault();
@@ -158,11 +158,11 @@ function HeroHome() {
                   <path d="M10 17l6-5-6-5z" />
                 </svg>
                 <span className="ml-3">Watch the full video (2 min)</span>
-              </button>
+              </button> */}
             </div>
 
             {/* Modal */}
-            <Modal
+            {/* <Modal
               id="modal"
               ariaLabel="modal-headline"
               show={videoModalOpen}
@@ -176,7 +176,7 @@ function HeroHome() {
                   allowFullScreen
                 ></iframe>
               </div>
-            </Modal>
+            </Modal> */}
           </div>
         </div>
       </div>
