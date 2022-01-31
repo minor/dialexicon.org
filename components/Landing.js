@@ -92,7 +92,7 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                An international platform for youth to engage in philosophy.
+                A platform for youth to engage in philosophy.
               </p>
               <p
                 className="mb-8 text-xl text-gray-600"

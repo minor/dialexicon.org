@@ -30,9 +30,9 @@ export default function Journal() {
                 is a journal aimed at fostering philosophical thinking and
                 writing among high school students. Submitted papers undergo a
                 multi-round review process, during which an adjudication panel
-                consisting of philosophy faculty, graduate students, and
-                international debate coaches will evaluate papers and determine
-                the select few worthy of publication.
+                consisting of philosophy faculty, graduate students, and debate
+                coaches will evaluate papers and determine those worthy of
+                publication.
                 <br />
                 <br />
                 <span className="font-semibold">
@@ -48,10 +48,16 @@ export default function Journal() {
                     Department's homepage
                   </li>
                   <li>
-                    An interview with Dialexicon to expand on their paper and
-                    discuss current affairs
+                    An interview with Dialexicon to discuss their paper and
+                    philosophy
                   </li>
-                  <li>A $100 check funded by the Ontario Ethics Bowl</li>
+                  <li>
+                    A $100 check funded by the Ontario Ethics Bowl [
+                    <span className="text-red-500">
+                      only for the winner, NOT all published authors
+                    </span>
+                    ]
+                  </li>
                 </ul>
               </p>
             </div>

@@ -49,7 +49,7 @@ function Testimonials() {
                 href="/contact"
                 className="text-gray-700 underline hover:text-black"
               >
-                connect with us
+                email us
               </a>
               .
             </p>

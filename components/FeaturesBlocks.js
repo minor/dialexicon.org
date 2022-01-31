@@ -77,14 +77,8 @@ function FeaturesBlocks() {
                 How does the submission process work?
               </h4>
               <p className="text-center text-gray-600">
-                We use a blind review process, meaning we do not consider
-                personal information such as your name, school, or age when
-                reviewing your submission. Your essay will undergo multiple
-                rounds of review, and be evaluated by at least 4 different
-                adjudicators. The top 10 submissions will be evaluated by 3
-                esteemed university faculty to select those accepted for
-                publication and the overall winner, and feedback will be
-                provided to each author.
+                Your paper will undergo multiple rounds of blind review, where
+                it will be evaluated by at least two different adjudicators.
               </p>
             </div>
 

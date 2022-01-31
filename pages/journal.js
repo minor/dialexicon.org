@@ -71,9 +71,9 @@ export default function Journal() {
             </div>
           </div>
           <div className="pb-12 text-left md:pb-16">
-            <h1 className="mb-4 text-2xl font-bold md:text-3xl leading-tighter">
+            {/* <h1 className="mb-4 text-2xl font-bold md:text-3xl leading-tighter">
               Past Volumes
-            </h1>
+            </h1> */}
             <div className="mx-auto">
               <p className="mb-4 text-xl text-gray-600">
                 The 2020 Fall{" "}

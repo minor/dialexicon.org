@@ -33,11 +33,11 @@ function Features() {
           <div className="max-w-3xl pb-12 mx-auto text-center md:pb-16">
             <h1 className="mb-4 h2">What is Dialexicon?</h1>
             <p className="mb-8 text-xl text-gray-600">
-              Dialexicon is a platform for high school students to learn,
-              discuss, and contribute to philosophical thought and writing. At
-              the heart of the platform is our philosophy journal, Dialexicon,
-              which publishes exceptional philosophical essays written by high
-              school students.
+              Dialexicon is a platform for youth to learn, discuss, and
+              contribute to philosophy thought and writing. At the heart of the
+              platform is our philosophy journal,{" "}
+              <span className="italic">Dialexicon</span>, which publishes
+              exceptional philosophical essays written by the youth.
             </p>
             <blockquote className="relative p-4 font-serif text-xl italic text-gray-600 bg-gray-100 border-l-4 quote">
               "The unexamined life is not worth living." –{" "}
@@ -61,9 +61,9 @@ function Features() {
             >
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="mb-3 h3">How to Get Involved</h3>
-                <p className="text-xl text-gray-600">
+                {/* <p className="text-xl text-gray-600">
                   Dialexicon has many initiatives where you can get involved.
-                </p>
+                </p> */}
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -192,10 +192,10 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src="/images/athens_image.jpeg"
-                      width="640"
-                      height="427"
-                      alt="The School of Athens"
+                      src="/images/logictutorials.png"
+                      width="700"
+                      height="450"
+                      alt="Dialexicon's Logic Tutorials"
                     />
                     {/* <img
                       className="absolute left-0 w-full transform md:max-w-none animate-float"
@@ -253,8 +253,8 @@ function Features() {
                     <img
                       className="mx-auto rounded md:max-w-none"
                       src="/images/community.jpg"
-                      width="640"
-                      height="462"
+                      width="700"
+                      height="450"
                       alt="Discord Community"
                     />
                     {/* <img

@@ -97,7 +97,10 @@ function Newsletter() {
             <div className="relative flex flex-col items-center justify-between lg:flex-row">
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="mb-2 text-white h3">Join our newsletter</h3>
+                <h3 className="mb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 h3">
+                  Coming soon – our newsletter!
+                </h3>
+                {/* <h3 className="mb-2 text-white h3">Join our newsletter</h3> */}
                 <p className="mb-6 text-lg text-gray-300">
                   Highlighting philosophical research pertinent to you. Curated
                   and created by students, for students.

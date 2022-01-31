@@ -16,13 +16,13 @@ const board = [
         essay contests, especially those related to philosophy - most notably,
         she won the 2019 Aristotle Philosophy Contest and placed 2nd in the 2020
         John Locke Institute Politics Prize. She was a competitive debater in
-        high school and most enjoyed attempting to debate in French. She also
-        has a nascent philosophy blog at{" "}
+        high school and most enjoyed attempting to debate in French. To find out
+        more about her, you can visit{" "}
         <a
           className="text-blue-500 underline"
-          href="https://elizabethzhu.home.blog"
+          href="https://www.elizabeth-zhu.com/"
         >
-          elizabethzhu.home.blog
+          elizabeth-zhu.com
         </a>
         .
       </p>
@@ -83,7 +83,7 @@ export default function About() {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600">
-                The unexamined life is not worth living.
+                "The unexamined life is not worth living." - Socrates
               </p>
             </div>
           </div>
@@ -164,7 +164,7 @@ export default function About() {
                 <br />
                 To combat these problems, we need philosophy more than ever.
                 While science has fostered the creation of tools, philosophy
-                teaches us how and when to use them in just and beneficial wyas.
+                teaches us how and when to use them in just and beneficial ways.
                 We need political philosophy to justly govern citizens and allot
                 resources, ethics to guide how we ought to treat each other, and
                 epistemology to satisfy our curiosity.

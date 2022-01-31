@@ -175,7 +175,7 @@ export default function Layout(props) {
                   Community
                 </a>
                 <a
-                  href="mailto:dialexiconjournal@gmail.com"
+                  href="/contact"
                   className="text-lg font-medium text-gray-500 hover:text-gray-900"
                 >
                   Contact
