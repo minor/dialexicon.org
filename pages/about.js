@@ -30,17 +30,17 @@ const board = [
   },
   {
     name: "Saurish Srivastava",
-    position: "Vice-President",
+    position: "Board of Directors",
     image: "/images/board/saurish.jpeg",
     bio: (
       <p>
         Saurish is a junior at Evergreen Valley HS, located in San Jose,
         California. As an avid debater who has qualified to the Tournament of
-        Champions, Saurish is an active reader of philosophy. He is most
-        knowledgeable on critical literature surrounding African American
-        Studies. He has joined Dialexicon to help spread its mission of
-        empowering deep philosophical reflection and thought. More information
-        about him can be found on his website at{" "}
+        Champions in two different events, Saurish is an active reader of
+        philosophy. He joined Dialexicon to help spread its mission of
+        empowering deep philosophical reflection and thought. He leads the
+        Community, Podcast, and Newsletter. More information about him can be
+        found on his website at{" "}
         <a className="text-blue-500 underline" href="https://saurish.com">
           saurish.com
         </a>
@@ -78,7 +78,7 @@ export default function About() {
         <div className="pt-32 pb-12 md:pt-40">
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
-            <h1 className="mb-8 text-4xl font-extrabold tracking-tighter md:text-5xl leading-tighter">
+            <h1 className="mb-8 text-4xl font-extrabold tracking-tighter leading-tighter md:text-5xl">
               Why Dialexicon?
             </h1>
             <div className="max-w-3xl mx-auto">
@@ -105,7 +105,7 @@ export default function About() {
         </div>
         <div className="max-w-3xl">
           <div className="pb-12 text-left md:pb-16">
-            <h1 className="mb-4 text-2xl font-bold md:text-3xl leading-tighter">
+            <h1 className="mb-4 text-2xl font-bold leading-tighter md:text-3xl">
               As Plutarch once proclaimed, "Philosophy is the art of living."
             </h1>
             <div className="mx-auto">
@@ -128,7 +128,7 @@ export default function About() {
                 about seemingly self-evident subjects: Why is the sky blue? Why
                 do we have to listen to our parents? Why is there something
                 rather than nothing?{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
+                <span className="text-transparent bg-gradient-to-r from-rose-400 to-indigo-500 bg-clip-text">
                   Dialexicon
                 </span>{" "}
                 is a project to revive these questions by giving youth a
@@ -138,7 +138,7 @@ export default function About() {
             </div>
           </div>
           <div className="pb-12 text-left md:pb-16">
-            <h1 className="mb-4 text-2xl font-bold md:text-3xl leading-tighter">
+            <h1 className="mb-4 text-2xl font-bold leading-tighter md:text-3xl">
               Thinking like a philosopher is essential in the 21st century.
             </h1>
             <div className="mx-auto">
@@ -172,7 +172,7 @@ export default function About() {
                 <br />
                 Thinking like a philosopher trains you to be a problem-solver, a
                 persuasive orator, and a critical thinker.{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
+                <span className="text-transparent bg-gradient-to-r from-rose-400 to-indigo-500 bg-clip-text">
                   Dialexicon
                 </span>{" "}
                 is the first step on that journey, beginning with youth.
@@ -180,9 +180,9 @@ export default function About() {
             </div>
           </div>
           <div className="pb-12 text-left md:pb-16">
-            <h1 className="mb-4 text-2xl font-bold md:text-3xl leading-tighter">
+            <h1 className="mb-4 text-2xl font-bold leading-tighter md:text-3xl">
               Why{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
+              <span className="text-transparent bg-gradient-to-r from-rose-400 to-indigo-500 bg-clip-text">
                 Dialexicon
               </span>
               ?
@@ -217,29 +217,29 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
+      <div class="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
         <div class="space-y-12">
           <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-            <h1 className="mb-4 text-3xl font-bold tracking-tighter md:text-4xl leading-tighter">
+            <h1 className="mb-4 text-3xl font-bold tracking-tighter leading-tighter md:text-4xl">
               Meet our Board
             </h1>
           </div>
           <ul
             role="list"
-            class="mx-auto px-2 md:px-0 space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl"
+            class="mx-auto space-y-16 px-2 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 md:px-0 lg:max-w-5xl lg:grid-cols-3"
           >
             {board.map((member) => (
               <li>
                 <div class="space-y-6">
                   <img
-                    class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
+                    class="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56"
                     src={member.image}
                     alt=""
                   />
                   <div class="space-y-2">
                     <div class="leading-tight">
                       <h3 className="mb-2 text-2xl font-bold">{member.name}</h3>
-                      <p className="mb-4 text-[#7A68E1] text-xl">
+                      <p className="mb-4 text-xl text-[#7A68E1]">
                         {member.position}
                       </p>
                       <p className="text-lg leading-snug text-left text-gray-600">
