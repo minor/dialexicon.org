@@ -30,7 +30,7 @@ const board = [
   },
   {
     name: "Saurish Srivastava",
-    position: "Board of Directors",
+    position: "Vice President",
     image: "/images/board/saurish.jpeg",
     bio: (
       <p>

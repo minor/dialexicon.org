@@ -11,6 +11,11 @@ module.exports = {
         destination: "mailto:dialexiconjournal@gmail.com",
         permanent: true,
       },
+      {
+        source: "/podcast",
+        destination: "https://www.youtube.com/channel/UC-tO4dhpa6ab8evhqVcdvKA",
+        permanent: true,
+      },
     ];
   },
 };

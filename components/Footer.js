@@ -134,10 +134,10 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="https://discord.gg/J5RzXgQRWK"
+                  href="/podcast"
                   className="text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
-                  Discord
+                  Podcast
                 </a>
               </li>
               <li className="mb-2">
@@ -208,7 +208,7 @@ function Footer() {
             <li className="ml-4">
               <a
                 aria-label="github"
-                className="flex items-center justify-center text-gray-600 transition duration-150 ease-in-out bg-white rounded-full w-[1.875rem] h-[1.875rem] drop-shadow-md hover:text-gray-900 hover:bg-white-100"
+                className="hover:bg-white-100 flex h-[1.875rem] w-[1.875rem] items-center justify-center rounded-full bg-white text-gray-600 drop-shadow-md transition duration-150 ease-in-out hover:text-gray-900"
                 href="https://github.com/minor/dialexicon.org/"
               >
                 <svg
@@ -225,7 +225,7 @@ function Footer() {
             <li className="ml-4">
               <a
                 aria-label="mail"
-                className="flex items-center justify-center text-gray-600 transition duration-150 ease-in-out bg-white rounded-full w-[1.875rem] h-[1.875rem] drop-shadow-md hover:text-gray-900 hover:bg-white-100"
+                className="hover:bg-white-100 flex h-[1.875rem] w-[1.875rem] items-center justify-center rounded-full bg-white text-gray-600 drop-shadow-md transition duration-150 ease-in-out hover:text-gray-900"
                 href="maito:dialexiconjournal@gmail.com"
               >
                 <svg
@@ -243,7 +243,7 @@ function Footer() {
             <li className="ml-4">
               <a
                 aria-label="facebook"
-                className="flex items-center justify-center text-gray-600 transition duration-150 ease-in-out bg-white rounded-full w-[1.875rem] h-[1.875rem] drop-shadow-md hover:text-gray-900 hover:bg-white-100"
+                className="hover:bg-white-100 flex h-[1.875rem] w-[1.875rem] items-center justify-center rounded-full bg-white text-gray-600 drop-shadow-md transition duration-150 ease-in-out hover:text-gray-900"
                 href="https://www.facebook.com/dialexiconjournal/"
               >
                 <svg
@@ -260,7 +260,7 @@ function Footer() {
             <li className="ml-4">
               <a
                 aria-label="youtube"
-                className="flex items-center justify-center text-gray-600 transition duration-150 ease-in-out bg-white rounded-full w-[1.875rem] h-[1.875rem] drop-shadow-md hover:text-gray-900 hover:bg-white-100"
+                className="hover:bg-white-100 flex h-[1.875rem] w-[1.875rem] items-center justify-center rounded-full bg-white text-gray-600 drop-shadow-md transition duration-150 ease-in-out hover:text-gray-900"
                 href="https://www.youtube.com/channel/UC-tO4dhpa6ab8evhqVcdvKA"
               >
                 <svg
@@ -278,7 +278,7 @@ function Footer() {
             <li className="ml-4">
               <a
                 aria-label="instagram"
-                className="flex items-center justify-center text-gray-600 transition duration-150 ease-in-out bg-white rounded-full w-[1.875rem] h-[1.875rem] drop-shadow-md hover:text-gray-900 hover:bg-white-100"
+                className="hover:bg-white-100 flex h-[1.875rem] w-[1.875rem] items-center justify-center rounded-full bg-white text-gray-600 drop-shadow-md transition duration-150 ease-in-out hover:text-gray-900"
                 href="https://www.instagram.com/dialexiconorg/"
               >
                 <svg

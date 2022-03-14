@@ -91,8 +91,8 @@ export default function Layout(props) {
         )}
       </Head>
       <header
-        className={`fixed w-full z-30 md:opacity-90 transition duration-300 ease-in-out ${
-          !top && "bg-white dark:bg-gray-900 shadow-lg"
+        className={`fixed z-30 w-full transition duration-300 ease-in-out md:opacity-90 ${
+          !top && "bg-white shadow-lg dark:bg-gray-900"
         }`}
       >
         <Popover className="relative bg-white">
@@ -134,7 +134,7 @@ export default function Layout(props) {
                 </Link>
               </div>
               <div className="-my-2 -mr-2 md:hidden">
-                <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span className="sr-only">Open menu</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -163,6 +163,12 @@ export default function Layout(props) {
                     Journal
                   </a>
                 </Link>
+                <a
+                  className="text-lg font-medium text-gray-500 hover:text-gray-900"
+                  href="/podcast"
+                >
+                  Podcast
+                </a>
                 <Link href="/submit">
                   <a className="text-lg font-medium text-gray-500 hover:text-gray-900">
                     Submit
@@ -215,7 +221,7 @@ export default function Layout(props) {
                   )}
                 </button> */}
                 <Link href="/discord">
-                  <a className="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-[#7A68E1] whitespace-nowrap hover:bg-indigo-700">
+                  <a className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-[#7A68E1] px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700">
                     Discord
                   </a>
                 </Link>
@@ -236,7 +242,7 @@ export default function Layout(props) {
               focus
               className="absolute inset-x-0 top-0 z-10 p-2 transition origin-top-right transform md:hidden"
             >
-              <div className="bg-white divide-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-gray-50">
+              <div className="bg-white divide-y-2 rounded-lg shadow-lg divide-gray-50 ring-1 ring-black ring-opacity-5">
                 <div className="px-5 pt-5 pb-6">
                   <div className="flex items-center justify-between">
                     <div>
@@ -274,7 +280,7 @@ export default function Layout(props) {
                       </Link>
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Close menu</span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
