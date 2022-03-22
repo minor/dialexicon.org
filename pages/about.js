@@ -39,10 +39,34 @@ const board = [
         Champions in two different events, Saurish is an active reader of
         philosophy. He joined Dialexicon to help spread its mission of
         empowering deep philosophical reflection and thought. He leads the
-        Community, Podcast, and Newsletter. More information about him can be
-        found on his website at{" "}
+        Podcast, Newsletter, and helps out with the Community. More information
+        about him can be found on his website at{" "}
         <a className="text-blue-500 underline" href="https://saurish.com">
           saurish.com
+        </a>
+        .
+      </p>
+    ),
+  },
+  {
+    name: "Emily Hu",
+    position: "Community Lead",
+    image: "/images/board/emily.jpeg",
+    bio: (
+      <p>
+        Emily is a grade 12 student at Oakville Trafalgar High School. She
+        became fascinated in philosophy after taking a free will versus
+        determinism course in August 2020. Shortly after, she independently read
+        Notes From the Underground in her grade 11 English class, which
+        introduced her to the enthralling world of existential fiction. Emily is
+        an avid reader of blogs and essays (her latest reading can be found at{" "}
+        <a className="text-blue-500 underline" href="https://saurish.com">
+          curius.app/emily-hu
+        </a>
+        ) and loves meeting new people on the internet. You can read some of her
+        writing at{" "}
+        <a className="text-blue-500 underline" href="https://saurish.com">
+          medium.com/@em.wu19
         </a>
         .
       </p>
