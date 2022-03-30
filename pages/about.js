@@ -60,12 +60,18 @@ const board = [
         Notes From the Underground in her grade 11 English class, which
         introduced her to the enthralling world of existential fiction. Emily is
         an avid reader of blogs and essays (her latest reading can be found at{" "}
-        <a className="text-blue-500 underline" href="https://saurish.com">
+        <a
+          className="text-blue-500 underline"
+          href="https://curius.app/emily-hu"
+        >
           curius.app/emily-hu
         </a>
         ) and loves meeting new people on the internet. You can read some of her
         writing at{" "}
-        <a className="text-blue-500 underline" href="https://saurish.com">
+        <a
+          className="text-blue-500 underline"
+          href="https://medium.com/@em.wu19"
+        >
           medium.com/@em.wu19
         </a>
         .
