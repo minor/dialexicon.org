@@ -12,7 +12,7 @@ export default function Journal() {
       <div className="max-w-6xl px-4 mx-auto border-b sm:px-6">
         <div className="pt-32 pb-12 md:pt-40">
           <div className="pb-8 text-center">
-            <h1 className="mb-8 text-4xl font-extrabold tracking-tighter md:text-5xl leading-tighter">
+            <h1 className="mb-8 text-4xl font-extrabold tracking-tighter leading-tighter md:text-5xl">
               Submit to Dialexicon
             </h1>
           </div>
@@ -23,8 +23,14 @@ export default function Journal() {
               What is the Dialexicon Journal?
             </h1>
             <div className="mx-auto">
+              <p className="mb-6 text-2xl text-red-500 md:mb-8">
+                Results for the 2022 Dialexicon Journal will unfortunately be
+                announced later than initially expected due to technical issues.
+                Keep checking the website for updates on the journal! We
+                apologize for the delay.
+              </p>
               <p className="mb-6 text-xl text-gray-600 md:mb-8">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
+                <span className="text-transparent bg-gradient-to-r from-rose-400 to-indigo-500 bg-clip-text">
                   Dialexicon
                 </span>{" "}
                 is a journal aimed at fostering philosophical thinking and
@@ -66,7 +72,7 @@ export default function Journal() {
             <h1 className="mb-8 text-3xl font-bold leading-tighter">
               Introducing the 2021/22 Dialexicon Journal
             </h1>
-            <h2 className="mb-6 text-2xl font-bold md:mb-8 leading-tighter">
+            <h2 className="mb-6 text-2xl font-bold leading-tighter md:mb-8">
               Prompt 1: Mandatory Vaccines
             </h2>
             <div className="mx-auto">
@@ -84,7 +90,7 @@ export default function Journal() {
                 COVID-19 pandemic, and why?
               </p>
             </div>
-            <h2 className="mb-6 text-2xl font-bold md:mb-8 leading-tighter">
+            <h2 className="mb-6 text-2xl font-bold leading-tighter md:mb-8">
               Prompt 2: Transgender Athletes
             </h2>
             <div className="mx-auto">
@@ -109,7 +115,7 @@ export default function Journal() {
                 the Oscars?
               </p>
             </div>
-            <h2 className="mb-6 text-2xl font-bold md:mb-8 leading-tighter">
+            <h2 className="mb-6 text-2xl font-bold leading-tighter md:mb-8">
               Prompt 3: Gene Editing
             </h2>
             <div className="mx-auto">
@@ -129,7 +135,7 @@ export default function Journal() {
                 justice issues?
               </p>
             </div>
-            <h2 className="mb-6 text-2xl font-bold md:mb-8 leading-tighter">
+            <h2 className="mb-6 text-2xl font-bold leading-tighter md:mb-8">
               Prompt 4: Truth
             </h2>
             <div className="mx-auto">
@@ -146,7 +152,7 @@ export default function Journal() {
                 all?
               </p>
             </div>
-            <h2 className="mb-6 text-2xl font-bold md:mb-8 leading-tighter">
+            <h2 className="mb-6 text-2xl font-bold leading-tighter md:mb-8">
               Prompt 5: Choose your own prompt!
             </h2>
           </div>
