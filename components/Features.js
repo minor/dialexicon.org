@@ -56,7 +56,7 @@ function Features() {
           <div className="md:grid md:grid-cols-12 md:gap-6">
             {/* Content */}
             <div
-              className="max-w-xl mx-auto md:max-w-none md:w-full md:col-span-7 lg:col-span-6 md:mt-6"
+              className="max-w-xl mx-auto md:col-span-7 md:mt-6 md:w-full md:max-w-none lg:col-span-6"
               data-aos="fade-right"
             >
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
@@ -68,46 +68,15 @@ function Features() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                  className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${
                     tab !== 1
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "border-gray-200 bg-white shadow-md hover:shadow-lg"
+                      : "border-transparent bg-gray-200"
                   }`}
                   href="#0"
                   onClick={(e) => {
                     e.preventDefault();
                     setTab(1);
-                  }}
-                >
-                  <div>
-                    <div className="mb-1 font-bold leading-snug tracking-tight">
-                      Philosophical Education
-                    </div>
-                    <div className="text-gray-600">
-                      We empower our community to engage in philosophical
-                      discussion, thought, reflection, and education.
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
-                    <svg
-                      className="w-3 h-3 fill-current"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 2
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
-                  }`}
-                  href="#0"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setTab(2);
                   }}
                 >
                   <div>
@@ -133,10 +102,41 @@ function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                  className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${
+                    tab !== 2
+                      ? "border-gray-200 bg-white shadow-md hover:shadow-lg"
+                      : "border-transparent bg-gray-200"
+                  }`}
+                  href="#0"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setTab(2);
+                  }}
+                >
+                  <div>
+                    <div className="mb-1 font-bold leading-snug tracking-tight">
+                      Philosophical Education
+                    </div>
+                    <div className="text-gray-600">
+                      We empower our community to engage in philosophical
+                      discussion, thought, reflection, and education.
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
+                    <svg
+                      className="w-3 h-3 fill-current"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                    </svg>
+                  </div>
+                </a>
+                <a
+                  className={`mb-3 flex items-center rounded border p-5 text-lg transition duration-300 ease-in-out ${
                     tab !== 3
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "border-gray-200 bg-white shadow-md hover:shadow-lg"
+                      : "border-transparent bg-gray-200"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -172,7 +172,7 @@ function Features() {
 
             {/* Tabs items */}
             <div
-              className="max-w-xl mx-auto mb-8 md:max-w-none md:w-full md:col-span-5 lg:col-span-6 md:mb-0 md:order-1"
+              className="max-w-xl mx-auto mb-8 md:order-1 md:col-span-5 md:mb-0 md:w-full md:max-w-none lg:col-span-6"
               data-aos="zoom-y-out"
               ref={tabs}
             >
