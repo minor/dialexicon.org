@@ -101,7 +101,7 @@ export default function Journal() {
                 <br />
                 ​Congratulations to Nicholas Liu, who is our 2021 winner and
                 recipient of the $100 prize, with his paper titled "Imagine
-                Sisyphus Exploited: The Absurdity of Late-Stage Capitalism" ​
+                Sisyphus Exploited: The Absurdity of Late-Stage Capitalism." ​
                 <br />
                 <br />
                 Published Authors - Featured in the Dialexicon Fall 2021
@@ -162,7 +162,7 @@ export default function Journal() {
                 <br />
                 ​Congratulations to Julia Wright, who is our 2020 winner and
                 recipient of the $500 prize, with her paper titled "The Animal
-                Rights Movement in the Context of the COVID-19 Pandemic" ​
+                Rights Movement in the Context of the COVID-19 Pandemic." ​
                 <br />
                 <br />
                 Published Authors - Featured in the Dialexicon Fall 2020
