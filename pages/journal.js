@@ -14,14 +14,14 @@ export default function Journal() {
         <div className="pt-32 pb-12 md:pt-40">
           {/* Section header */}
           <div className="pb-8 text-center">
-            <h1 className="mb-8 text-4xl font-extrabold tracking-tighter md:text-5xl leading-tighter">
+            <h1 className="mb-8 text-4xl font-extrabold tracking-tighter leading-tighter md:text-5xl">
               Our Journal
             </h1>
           </div>
         </div>
         <div className="max-w-3xl">
           <div className="pb-12 text-left md:pb-16">
-            <h1 className="mb-4 text-2xl font-bold md:text-3xl leading-tighter">
+            <h1 className="mb-4 text-2xl font-bold leading-tighter md:text-3xl">
               Current Volume
             </h1>
             <div className="mx-auto">
@@ -76,8 +76,69 @@ export default function Journal() {
             </h1> */}
             <div className="mx-auto">
               <p className="mb-4 text-xl text-gray-600">
+                The 2021 Fall{" "}
+                <span className="text-transparent bg-gradient-to-r from-rose-400 to-indigo-500 bg-clip-text">
+                  Dialexicon
+                </span>{" "}
+                Journal received 33 submissions from 12 countries: Canada,
+                Greece, US, Mexico, Hungary, UK, Indonesia, Slovenia, Turkey,
+                Thailand, Bosnia and Herzegovina, and Serbia.
+                <br />
+                <br />
+                <span className="font-semibold">
+                  Announcing the Winner and Published Authors of the{" "}
+                  <a
+                    href="/"
+                    className="text-gray-700 underline hover:text-black"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Dialexicon Fall 2021 Journal
+                  </a>
+                  .
+                </span>{" "}
+                <br />
+                <br />
+                ​Congratulations to Nicholas Liu, who is our 2021 winner and
+                recipient of the $100 prize, with his paper titled "Imagine
+                Sisyphus Exploited: The Absurdity of Late-Stage Capitalism" ​
+                <br />
+                <br />
+                Published Authors - Featured in the Dialexicon Fall 2021
+                Journal:
+                <ul className="mt-4 mb-4 ml-6 list-disc">
+                  <li>
+                    Marianne Stamotiou () - "Compulsory or Voluntary
+                    Vaccination: The Djokovic Case"
+                  </li>
+                  <li>
+                    Lucy Fan () - "The Rise of Relativism and the Death of
+                    Truth"
+                  </li>
+                  <li>
+                    Jerry Zhang () - "The Ethics of Mandatory Vaccines: Why
+                    Governments Should Take the Plunge"
+                  </li>
+                  <li>Gabi Casals () - "The Role of Identity"</li>
+                </ul>
+                Honorable Mentions:
+                <ul className="mt-4 mb-4 ml-6 list-disc">
+                  <li>Toth Efraim ()</li>
+                  <li>Soma Viragh ()</li>
+                  <li>Βασιλική Παναγοπούλου ()</li>
+                  <li>Samuel Veto ()</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div className="pb-12 text-left md:pb-16">
+            <h1 className="mb-8 text-2xl font-bold leading-tighter md:text-3xl">
+              Past Volumes
+            </h1>
+            <div className="mx-auto">
+              <p className="mb-4 text-xl text-gray-600">
                 The 2020 Fall{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-indigo-500">
+                <span className="text-transparent bg-gradient-to-r from-rose-400 to-indigo-500 bg-clip-text">
                   Dialexicon
                 </span>{" "}
                 Journal received 85 submissions from 12 countries: Canada,
