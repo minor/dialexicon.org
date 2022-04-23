@@ -76,7 +76,7 @@ export default function Journal() {
             </h1> */}
             <div className="mx-auto">
               <p className="mb-4 text-xl text-gray-600">
-                The 2021 Fall{" "}
+                {/* The 2021 Fall{" "}
                 <span className="text-transparent bg-gradient-to-r from-rose-400 to-indigo-500 bg-clip-text">
                   Dialexicon
                 </span>{" "}
@@ -84,7 +84,7 @@ export default function Journal() {
                 Greece, US, Mexico, Hungary, UK, Indonesia, Slovenia, Turkey,
                 Thailand, Bosnia and Herzegovina, and Serbia.
                 <br />
-                <br />
+                <br /> */}
                 <span className="font-semibold">
                   Announcing the Winner and Published Authors of the{" "}
                   <a
@@ -108,25 +108,24 @@ export default function Journal() {
                 Journal:
                 <ul className="mt-4 mb-4 ml-6 list-disc">
                   <li>
-                    Marianne Stamotiou () - "Compulsory or Voluntary
-                    Vaccination: The Djokovic Case"
+                    Marianne Stamotiou - "Compulsory or Voluntary Vaccination:
+                    The Djokovic Case"
                   </li>
                   <li>
-                    Lucy Fan () - "The Rise of Relativism and the Death of
-                    Truth"
+                    Lucy Fan - "The Rise of Relativism and the Death of Truth"
                   </li>
                   <li>
-                    Jerry Zhang () - "The Ethics of Mandatory Vaccines: Why
+                    Jerry Zhang - "The Ethics of Mandatory Vaccines: Why
                     Governments Should Take the Plunge"
                   </li>
-                  <li>Gabi Casals () - "The Role of Identity"</li>
+                  <li>Gabi Casals - "The Role of Identity"</li>
                 </ul>
                 Honorable Mentions:
                 <ul className="mt-4 mb-4 ml-6 list-disc">
-                  <li>Toth Efraim ()</li>
-                  <li>Soma Viragh ()</li>
-                  <li>Βασιλική Παναγοπούλου ()</li>
-                  <li>Samuel Veto ()</li>
+                  <li>Toth Efraim</li>
+                  <li>Soma Viragh</li>
+                  <li>Βασιλική Παναγοπούλου</li>
+                  <li>Samuel Veto</li>
                 </ul>
               </p>
             </div>

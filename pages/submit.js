@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 import Layout from "../components/Layout";
 
@@ -24,10 +25,12 @@ export default function Journal() {
             </h1>
             <div className="mx-auto">
               <p className="mb-6 text-2xl text-red-500 md:mb-8">
-                Results for the 2022 Dialexicon Journal will unfortunately be
-                announced later than initially expected due to technical issues.
-                Keep checking the website for updates on the journal! We
-                apologize for the delay.
+                Results for the 2022 Dialexicon Journal have been announced!
+                Please check the{" "}
+                <Link href="/journal">
+                  <a className="underline hover:text-red-700">Journal page</a>
+                </Link>{" "}
+                to find out more informations!
               </p>
               <p className="mb-6 text-xl text-gray-600 md:mb-8">
                 <span className="text-transparent bg-gradient-to-r from-rose-400 to-indigo-500 bg-clip-text">
