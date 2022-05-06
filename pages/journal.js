@@ -124,7 +124,7 @@ export default function Journal() {
                 <ul className="mt-4 mb-4 ml-6 list-disc">
                   <li>Toth Efraim</li>
                   <li>Soma Viragh</li>
-                  <li>Βασιλική Παναγοπούλου</li>
+                  <li>Tilemachos Paizis</li>
                   <li>Samuel Veto</li>
                 </ul>
               </p>
