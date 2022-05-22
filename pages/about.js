@@ -34,13 +34,13 @@ const board = [
     image: "/images/board/saurish.jpeg",
     bio: (
       <p>
-        Saurish is a junior at Evergreen Valley HS, located in San Jose,
+        Saurish is a rising senior at Evergreen Valley HS, located in San Jose,
         California. As an avid debater who has qualified to the Tournament of
-        Champions in two different events, Saurish is an active reader of
-        philosophy. He joined Dialexicon to help spread its mission of
-        empowering deep philosophical reflection and thought. He leads the
-        Podcast, Newsletter, and helps out with the Community. More information
-        about him can be found on his website at{" "}
+        Champions in two different debate events, Saurish is an active reader of
+        philosophy. He joined Dialexicon last year to help spread its mission of
+        empowering deep philosophical reflection and thought. He created and
+        leads the Podcast, Community, Outreach, and Newsletter projects of
+        Dialexicon. More information about him can be found on his website at{" "}
         <a className="text-blue-500 underline" href="https://saurish.com">
           saurish.com
         </a>
