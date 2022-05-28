@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 const board = [
   {
     name: "Elizabeth Zhu",
-    position: "Founder, Editor-in-Chief",
+    position: "Founder, Co-President",
     image: "/images/board/elizabeth.webp",
     bio: (
       <p>
@@ -30,7 +30,7 @@ const board = [
   },
   {
     name: "Saurish Srivastava",
-    position: "Vice President",
+    position: "Co-President",
     image: "/images/board/saurish.jpeg",
     bio: (
       <p>
@@ -38,7 +38,7 @@ const board = [
         California. As an avid debater who has qualified to the Tournament of
         Champions in two different debate events, Saurish is an active reader of
         philosophy. He joined Dialexicon last year to help spread its mission of
-        empowering deep philosophical reflection and thought. He created and
+        empowering deep philosophical reflection and thought. He founded and
         leads the Podcast, Community, Outreach, and Newsletter projects of
         Dialexicon. More information about him can be found on his website at{" "}
         <a className="text-blue-500 underline" href="https://saurish.com">

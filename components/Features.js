@@ -192,10 +192,10 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src="/images/logictutorials.png"
-                      width="700"
-                      height="450"
-                      alt="Dialexicon's Logic Tutorials"
+                      src="/images/journal.jpg"
+                      width="500"
+                      height="462"
+                      alt="Journal"
                     />
                     {/* <img
                       className="absolute left-0 w-full transform md:max-w-none animate-float"
@@ -222,10 +222,10 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src="/images/journal.jpg"
-                      width="500"
-                      height="462"
-                      alt="Journal"
+                      src="/images/logictutorials.png"
+                      width="700"
+                      height="450"
+                      alt="Dialexicon's Logic Tutorials"
                     />
                     {/* <img
                       className="absolute left-0 w-full transform md:max-w-none animate-float"
