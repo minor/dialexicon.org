@@ -99,7 +99,7 @@ export default function Journal() {
                 </span>{" "}
                 <br />
                 <br />
-                ​Congratulations to Nicholas Liu, who is our 2021 winner and
+                ​Congratulations to Nick Liu, who is our 2021 winner and
                 recipient of the $100 prize, with his paper titled "Imagine
                 Sisyphus Exploited: The Absurdity of Late-Stage Capitalism." ​
                 <br />
