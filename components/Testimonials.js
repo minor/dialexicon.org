@@ -47,7 +47,7 @@ function Testimonials() {
               If you would like to sponsor Dialexicon, please{" "}
               <a
                 href="/contact"
-                className="text-gray-700 underline hover:text-black"
+                className="text-[#7A68E1] underline hover:text-[#452cd5]"
               >
                 email us
               </a>

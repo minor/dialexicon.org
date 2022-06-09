@@ -115,11 +115,18 @@ function Features() {
                 >
                   <div>
                     <div className="mb-1 font-bold leading-snug tracking-tight">
-                      Philosophical Education
+                      Dialexicon Podcast
                     </div>
                     <div className="text-gray-600">
-                      We empower our community to engage in philosophical
-                      discussion, thought, reflection, and education.
+                      Tune in{" "}
+                      <a
+                        href="/podcast"
+                        className="text-[#7A68E1] underline hover:text-[#452cd5]"
+                      >
+                        weekly to our podcast
+                      </a>{" "}
+                      with knowledgeable scholars about philosophy with a
+                      special focus on contemporary issues.
                     </div>
                   </div>
                   <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 ml-3 bg-white rounded-full shadow">
@@ -222,7 +229,7 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src="/images/logictutorials.png"
+                      src="/images/dialexiconPodcast.jpg"
                       width="700"
                       height="450"
                       alt="Dialexicon's Logic Tutorials"
