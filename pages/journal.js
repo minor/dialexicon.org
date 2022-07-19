@@ -104,7 +104,7 @@ export default function Journal() {
                 ​Congratulations to Nick Liu of Phillips Academy
                 Andover (USA), who is our 2022 winner and recipient of
                 the $100 prize, with his paper titled "Imagine
-                Sisyphus Exploited: The Absurdity of Late-Stage
+                Sisyphus Exploited: The Absurdity of Late Stage
                 Capitalism." ​
                 <br />
                 <br />
@@ -113,21 +113,20 @@ export default function Journal() {
                 <ul className="mt-4 mb-4 ml-6 list-disc">
                   <li>
                     Marianna Stamatiou (Arsakeio Lykeum of Patras,
-                    Greece) — "Compulsory or Voluntary Vaccination:
-                    The Djokovic Case"
+                    Greece) — "Mandatory Vaccines? The Djokovic Case"
                   </li>
                   <li>
                     Lucy Fan (Guildford High School, United Kingdom) —
-                    "The Rise of Relativism and the Death of Truth"
+                    "Relativism and the Death of Truth"
                   </li>
                   <li>
                     Jerry Zhang (Collingwood School, Canada) — "The
-                    Ethics of Mandatory Vaccines: Why Governments
+                    The Ethics of Mandatory Vaccines: Why Governments
                     Should Take the Plunge"
                   </li>
                   <li>
                     Gabi Casals (Brentwood College School, Canada) —
-                    "The Role of Identity"
+                    "Does Identity Exist?"
                   </li>
                 </ul>
                 Honorable Mentions:
