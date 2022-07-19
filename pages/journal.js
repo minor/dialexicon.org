@@ -31,7 +31,7 @@ export default function Journal() {
                     position: 'relative',
                     width: '100%',
                     height: 0,
-                    paddingTop: '125.0000%',
+                    paddingTop: '129.4118%',
                     paddingBottom: '48px',
                     boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
                     marginTop: '1.6em',
