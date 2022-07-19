@@ -53,7 +53,7 @@ export default function Journal() {
                       padding: 0,
                       margin: 0,
                     }}
-                    src="https://www.canva.com/design/DAEOGgg2VpY/view?embed"
+                    src="https://www.canva.com/design/DAFFBX8eKn4/view?embed"
                     allowFullScreen="allowfullscreen"
                     allow="fullscreen"
                   ></iframe>
